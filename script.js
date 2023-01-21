@@ -8,8 +8,9 @@ for( let i=0; i<16; i++){
         div.style.backgroundColor = "red";
     
     });
+    div.addEventListener("mouseleave",()=>{
+        div.style.backgroundColor = "green";
+    
+    });
     container.appendChild(div);
 }
-
-let box = container.childNodes;
-
